@@ -5,12 +5,12 @@ function increaseBalance(x, y) {
   return x;
 }
 
-function decreaseBalance(x, y) {
+function decreaseBalance(x, y) { // не хватало аргумента y
 x = x - y;
 return x;
 }
 
-function divideBalanceByAccounts(x, y) { // не хватало аргумента y
+function divideBalanceByAccounts(x, y) { 
   x = x / y;
   return x;
   // console.log(x);
